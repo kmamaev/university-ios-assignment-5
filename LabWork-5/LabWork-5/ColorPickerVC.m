@@ -1,4 +1,5 @@
 #import "ColorPickerVC.h"
+#import "UIColor+ColorHelper.h"
 
 
 static NSString *const BACK_BUTTON_TEXT = @"Back";
@@ -289,13 +290,7 @@ static NSString *const BACK_BUTTON_TEXT = @"Back";
 
 - (void)updateBackgroundColors:(UIColor *)color {
     self.view.backgroundColor = color;
-    self.nextVCButton.backgroundColor = [[self class] invertColor:color];
-}
-
-+ (UIColor *)invertColor:(UIColor *)color {
-    CGFloat red, green, blue, alpha;
-    [color getRed:&red green:&green blue:&blue alpha:&alpha];
-    return [UIColor colorWithRed:1.-red green:1.-green blue:1.-blue alpha:alpha];
+    self.nextVCButton.backgroundColor = [UIColor invertColor:color];
 }
 
 - (void)buttonTouchDownAnimation:(UIButton *)sender {
