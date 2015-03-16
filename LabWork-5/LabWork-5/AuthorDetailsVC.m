@@ -8,7 +8,7 @@
 @implementation AuthorDetailsVC
 
 - (IBAction)closeButtonTapped:(UIButton *)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    [[self presentingViewController] dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
