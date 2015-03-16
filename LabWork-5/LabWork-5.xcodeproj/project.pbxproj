@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B5046D4B1AB6FFD2006D5183 /* UIColor+ColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5046D4A1AB6FFD2006D5183 /* UIColor+ColorHelper.m */; };
+		B5046D4F1AB7028B006D5183 /* AuthorDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5046D4D1AB7028B006D5183 /* AuthorDetailsVC.m */; };
+		B5046D501AB7028B006D5183 /* AuthorDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5046D4E1AB7028B006D5183 /* AuthorDetailsVC.xib */; };
 		B52CCF0F1AAD797900E7828A /* ColorSliderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B52CCF0D1AAD797900E7828A /* ColorSliderVC.m */; };
 		B52CCF101AAD797900E7828A /* ColorSliderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52CCF0E1AAD797900E7828A /* ColorSliderVC.xib */; };
 		B52CCF141AADA45D00E7828A /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B52CCF121AADA45D00E7828A /* AboutVC.m */; };
 		B52CCF151AADA45D00E7828A /* AboutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52CCF131AADA45D00E7828A /* AboutVC.xib */; };
-		B52CCF1B1AADDBD900E7828A /* AuthorDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B52CCF191AADDBD900E7828A /* AuthorDetailsVC.m */; };
-		B52CCF1C1AADDBD900E7828A /* AuthorDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52CCF1A1AADDBD900E7828A /* AuthorDetailsVC.xib */; };
 		B52CCF1E1AADDE4C00E7828A /* my_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B52CCF1D1AADDE4C00E7828A /* my_photo.jpg */; };
 		B5C35F8D1AA9E558008023C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C35F8C1AA9E558008023C4 /* main.m */; };
 		B5C35F901AA9E558008023C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C35F8F1AA9E558008023C4 /* AppDelegate.m */; };
@@ -36,15 +36,15 @@
 /* Begin PBXFileReference section */
 		B5046D491AB6FFD2006D5183 /* UIColor+ColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHelper.h"; sourceTree = "<group>"; };
 		B5046D4A1AB6FFD2006D5183 /* UIColor+ColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHelper.m"; sourceTree = "<group>"; };
+		B5046D4C1AB7028B006D5183 /* AuthorDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorDetailsVC.h; sourceTree = "<group>"; };
+		B5046D4D1AB7028B006D5183 /* AuthorDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorDetailsVC.m; sourceTree = "<group>"; };
+		B5046D4E1AB7028B006D5183 /* AuthorDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthorDetailsVC.xib; sourceTree = "<group>"; };
 		B52CCF0C1AAD797900E7828A /* ColorSliderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSliderVC.h; sourceTree = "<group>"; };
 		B52CCF0D1AAD797900E7828A /* ColorSliderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSliderVC.m; sourceTree = "<group>"; };
 		B52CCF0E1AAD797900E7828A /* ColorSliderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSliderVC.xib; sourceTree = "<group>"; };
 		B52CCF111AADA45D00E7828A /* AboutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutVC.h; sourceTree = "<group>"; };
 		B52CCF121AADA45D00E7828A /* AboutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutVC.m; sourceTree = "<group>"; };
 		B52CCF131AADA45D00E7828A /* AboutVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutVC.xib; sourceTree = "<group>"; };
-		B52CCF181AADDBD900E7828A /* AuthorDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthorDetailsVC.h; path = ../AuthorDetailsVC.h; sourceTree = "<group>"; };
-		B52CCF191AADDBD900E7828A /* AuthorDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthorDetailsVC.m; path = ../AuthorDetailsVC.m; sourceTree = "<group>"; };
-		B52CCF1A1AADDBD900E7828A /* AuthorDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AuthorDetailsVC.xib; path = ../AuthorDetailsVC.xib; sourceTree = "<group>"; };
 		B52CCF1D1AADDE4C00E7828A /* my_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = my_photo.jpg; sourceTree = "<group>"; };
 		B5C35F871AA9E558008023C4 /* LabWork-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LabWork-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C35F8B1AA9E558008023C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,6 +108,9 @@
 		B5C35F891AA9E558008023C4 /* LabWork-5 */ = {
 			isa = PBXGroup;
 			children = (
+				B5046D4C1AB7028B006D5183 /* AuthorDetailsVC.h */,
+				B5046D4D1AB7028B006D5183 /* AuthorDetailsVC.m */,
+				B5046D4E1AB7028B006D5183 /* AuthorDetailsVC.xib */,
 				B5046D481AB6FF96006D5183 /* Categories */,
 				B52CCF1D1AADDE4C00E7828A /* my_photo.jpg */,
 				B5C35F8E1AA9E558008023C4 /* AppDelegate.h */,
@@ -120,9 +123,6 @@
 				B52CCF111AADA45D00E7828A /* AboutVC.h */,
 				B52CCF121AADA45D00E7828A /* AboutVC.m */,
 				B52CCF131AADA45D00E7828A /* AboutVC.xib */,
-				B52CCF181AADDBD900E7828A /* AuthorDetailsVC.h */,
-				B52CCF191AADDBD900E7828A /* AuthorDetailsVC.m */,
-				B52CCF1A1AADDBD900E7828A /* AuthorDetailsVC.xib */,
 				B5C35F971AA9E558008023C4 /* Images.xcassets */,
 				B5C35F991AA9E558008023C4 /* LaunchScreen.xib */,
 				B5C35F8A1AA9E558008023C4 /* Supporting Files */,
@@ -237,8 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5046D501AB7028B006D5183 /* AuthorDetailsVC.xib in Resources */,
 				B52CCF151AADA45D00E7828A /* AboutVC.xib in Resources */,
-				B52CCF1C1AADDBD900E7828A /* AuthorDetailsVC.xib in Resources */,
 				B5C35F9B1AA9E558008023C4 /* LaunchScreen.xib in Resources */,
 				B52CCF101AAD797900E7828A /* ColorSliderVC.xib in Resources */,
 				B52CCF1E1AADDE4C00E7828A /* my_photo.jpg in Resources */,
@@ -260,8 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B52CCF1B1AADDBD900E7828A /* AuthorDetailsVC.m in Sources */,
 				B5C35F931AA9E558008023C4 /* ColorPickerVC.m in Sources */,
+				B5046D4F1AB7028B006D5183 /* AuthorDetailsVC.m in Sources */,
 				B52CCF141AADA45D00E7828A /* AboutVC.m in Sources */,
 				B52CCF0F1AAD797900E7828A /* ColorSliderVC.m in Sources */,
 				B5C35F901AA9E558008023C4 /* AppDelegate.m in Sources */,
