@@ -7,10 +7,6 @@
 
 @implementation AuthorDetailsVC
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-
 - (IBAction)closeButtonTapped:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
