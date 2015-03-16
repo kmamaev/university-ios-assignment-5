@@ -1,5 +1,6 @@
 #import "ColorPickerVC.h"
 #import "UIColor+ColorHelper.h"
+#import "UITextField+TextFieldHelper.h"
 
 
 static NSString *const BACK_BUTTON_TEXT = @"Back";
@@ -230,6 +231,11 @@ static NSString *const BACK_BUTTON_TEXT = @"Back";
 
 - (void)colorValueChanged:(UITextField *)sender {
     NSString *hexColorString = sender.text;
+    
+    // Mark text field by red border if color's hex value is not valid
+    BOOL isColorValid = [UIColor validateHexColor:hexColorString];
+    [sender highlightBorder:!isColorValid];
+    
     unsigned baseValue;
     [[NSScanner scannerWithString:hexColorString] scanHexInt:&baseValue];
     float red = ((baseValue >> 16) & 0xFF)/255.0f;
@@ -257,6 +263,9 @@ static NSString *const BACK_BUTTON_TEXT = @"Back";
     CGFloat red, green, blue, alpha;
     [self.view.backgroundColor getRed:&red green:&green blue:&blue alpha:&alpha];
     [self updateHexColorValueWithRed:red green:green blue:blue];
+    
+    // Disable hightlighting
+    [sender highlightBorder:NO];
 }
 
 - (void)colorSliderValueChanged:(UISlider *)sender {
