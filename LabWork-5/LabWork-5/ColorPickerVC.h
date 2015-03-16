@@ -3,5 +3,8 @@
 
 
 @interface ColorPickerVC : UIViewController
+
+- (instancetype)initWithDrillLevel:(NSInteger)drillLevel;
+
 @end
 
