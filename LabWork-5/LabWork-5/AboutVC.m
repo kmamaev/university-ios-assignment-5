@@ -7,10 +7,6 @@
 
 @implementation AboutVC
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-
 - (IBAction)alertButtonTapped:(UIButton *)sender {
     UIAlertController *alert = [UIAlertController
                                 alertControllerWithTitle:@"Alert"
